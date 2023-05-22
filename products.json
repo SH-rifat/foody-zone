@@ -1,0 +1,10 @@
+{
+    "food":[
+        {
+            "id" : 1,
+            "food_name" : "Boiled Eggs",
+            "food_text" : "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est. ",
+            "food_price" : "10"
+        }
+    ]
+}

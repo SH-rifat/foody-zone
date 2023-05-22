@@ -1,0 +1,46 @@
+{
+    "food":[
+        {
+            "id": 1,
+            "name": "Boiled Eggs",
+            "text": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est.",
+            "price": "10.00",
+            "pic": "Ellipse-1.png"
+        },
+        {
+            "id": 2,
+            "name": "RAMEN",
+            "text": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est.",
+            "price": "25.00",
+            "pic": "1.png"
+        },
+        {
+            "id": 3,
+            "name": "GRILLED CHICKEN",
+            "text": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est.",
+            "price": "45.00",
+            "pic": "2.png"
+        },
+        {
+            "id": 4,
+            "name": "CAKE",
+            "text": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est.",
+            "price": "18.00",
+            "pic": "3.png"
+        },
+        {
+            "id": 5,
+            "name": "BURGER",
+            "text": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est.",
+            "price": "23.00",
+            "pic": "4.png"
+        },
+        {
+            "id": 6,
+            "name": "PANCAKE",
+            "text": "Lorem ipsum dolor sit amet consectetur. Odio elementum in neque cras eget est.",
+            "price": "25.00",
+            "pic": "5.png"
+        }
+    ]
+}

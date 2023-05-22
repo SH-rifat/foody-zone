@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.top-section{
+  width: 100%;
+  height: 241px;
+  background-color: #5A5959;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-section .top .logo{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  color: white;
+}
+
+.top-section .top{
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  margin: 85px 0px 54px 0px;
+}
+
+.top-section .top .logo span{
+  color: #FF0A0A;
+}
+
+.top-section .top input{
+  box-sizing: border-box;
+  width: 285px;
+  height: 40px;
+  border: 1px solid #FF0909;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.top-section .top input::placeholder{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  padding: 10px 15px;
+}
+
+.top-section .menu-section .menu{
+  list-style-type: none;
+  width: 326px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-section .menu-section .menu .nav-link{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+  padding: 6px 12px;
+  background: #FF4343;
+  border-radius: 5px;
+}
+
+/* main section */
+
+.main {
+  width: 100%;
+  height: 785px;
+  background-image: url("./pics/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .main-cards{
+  margin-top: 66px;
+  display: grid;
+  grid-template-columns: repeat(3, 340px); /* Creates 3 equal-width columns */
+  grid-auto-rows: minmax(100px, auto); /* Sets minimum row height to 100px */
+  grid-gap: 32px 20px; /* Gap between grid items */
+}
+
+.card {
+  width: 340px;
+  height: 181px;
+  background:  radial-gradient(90.16% 143.01% at 15.32% 21.04%, rgba(165, 239, 255, 0.2) 0%, rgba(110, 191, 244, 0.0447917) 77.08%, rgba(70, 144, 213, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  background-blend-mode: overlay, normal;
+  backdrop-filter: blur(13.1842px);
+  border-radius: 19.4467px;
+  border: 0.66px solid radial-gradient(80.69% 208.78% at 108.28% 112.58%, #EABFFF 0%, rgba(135, 38, 183, 0) 100%),radial-gradient(80.38% 222.5% at -13.75% -12.36%, #98F9FF 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.card .card-body{
+  display: flex;
+}
+
+.card .card-body .card-info .card-title{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+  margin-top: 16px;
+}
+
+.card .card-body .card-info .card-text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: white;
+  width: 168px;
+  margin-top: 8px;
+}
+
+.card .card-body .card-img img{
+  width: 133px;
+  height: 133px;
+  margin-top: 7px;
+  margin-right: 17px;
+}
+
+.card .btn{
+  margin-bottom: 8px;
+}
+
+.card .card-body .card-info .btn{
+  margin-top: 40px;
+  margin-bottom: 14px;
+  display: flex;
+  justify-content: end;
+}
+
+.card .card-body .card-info .btn button{
+  padding: 4px 6px;
+  background-color: #FF4343;
+  color: white;
+  border: 0px;
+  cursor: pointer;
+  border-radius: 5px;
+}
